@@ -1505,7 +1505,7 @@ lazy val zioGolemSbt = project
     scalaVersion := "2.12.21",
     sbtVersion   := "1.12.0",
     addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.22.0"),
-    libraryDependencies += "org.scalameta" %% "scalafmt-dynamic" % "3.10.4",
+    libraryDependencies += "org.scalameta" %% "scalafmt-dynamic" % "3.10.7",
     mimaPreviousArtifacts                  := Set()
   )
 lazy val ringbufferBenchmarks = project
